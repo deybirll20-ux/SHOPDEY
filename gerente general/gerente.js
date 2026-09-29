@@ -136,11 +136,11 @@ function crearTiendaHTML(tienda) {
         "tienda";
 
 
-    const linkTienda =
-        "../Tienda/index.html?tienda=" +
-        encodeURIComponent(
-            tienda.slug
-        );
+   const linkTienda =
+    "https://shopdey.netlify.app/?tienda=" +
+    encodeURIComponent(
+        tienda.slug
+    );
 
 
     div.innerHTML = `
